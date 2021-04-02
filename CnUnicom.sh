@@ -25,7 +25,7 @@ workdirbase="/tmp/log/CnUnicom"
 echo ${all_parameter[*]} | grep -qE "githubaction" && workdirbase="$(pwd)/CnUnicom"
 
 # 联通APP版本
-unicom_version=8.0200
+unicom_version=8.6000
 
 #####
 ## 流量激活功能需要传入参数,中间d表示每天,w表示每周一,m代表每月第一天和第二天,格式： liulactive@d@ff80808166c5ee6701676ce21fd14716
